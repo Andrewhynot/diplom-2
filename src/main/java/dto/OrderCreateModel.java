@@ -1,0 +1,24 @@
+package dto;
+
+import java.util.List;
+
+public class OrderCreateModel {
+
+    private List<String> ingredients;
+
+    public OrderCreateModel(List<String> ingredients) {
+        this.ingredients = ingredients;
+    }
+
+    public List<String> getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(List<String> ingredients) {
+        this.ingredients = ingredients;
+    }
+
+
+
+
+}
